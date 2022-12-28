@@ -28,7 +28,7 @@ test.describe('Saucedemo login screen test suites', async () => {
 
     // TC for Invalid Login
 
-    test.only('should display login error message when username and password is empty and login button is clicked', async ({ page }) => {
+    test('should display login error message when username and password is empty and login button is clicked', async ({ page }) => {
         await page.goto("/");
         await sauceDemoLoginPageService?.clickLoginButton();
         expect(await sauceDemoLoginPageService?.getErrorMessageHeadingIsVisible()).toEqual(true)
