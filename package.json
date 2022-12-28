@@ -1,0 +1,24 @@
+{
+  "name": "playwright-educational",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "day1": "npx playwright test tests/Day1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulaiman-ahmed-Atmecs/Playwright-Educational.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulaiman-ahmed-Atmecs/Playwright-Educational/issues"
+  },
+  "homepage": "https://github.com/sulaiman-ahmed-Atmecs/Playwright-Educational#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  }
+}
