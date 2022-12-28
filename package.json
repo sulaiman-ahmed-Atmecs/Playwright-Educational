@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "day1": "npx playwright test tests/Day1"
+    "day1": "npx playwright test tests/Day1",
+    "day2": "npx playwright test tests/Day2"
   },
   "repository": {
     "type": "git",
