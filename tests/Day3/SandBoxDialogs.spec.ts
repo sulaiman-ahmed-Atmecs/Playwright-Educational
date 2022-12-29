@@ -2,8 +2,7 @@ import { expect, test } from "@playwright/test";
 import SandBoxAlertServiceInputService from "../PageObjectModel-POM/SandBoxAlertService.inputs";
 
 test.use({
-    baseURL: 'https://automatenow.io/sandbox-automation-testing-practice-website/',
-    // headless: false,
+    baseURL: 'https://automatenow.io/sandbox-automation-testing-practice-website/'
 });
 
 test.describe('Handle popups', async () => {
