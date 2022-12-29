@@ -3,8 +3,7 @@ import SauceDemoLoginPageService from '../PageObjectModel-POM/SauceDemoLoginPage
 
 
 test.use({
-    baseURL: "https://www.saucedemo.com/",
-    headless: false
+    baseURL: "https://www.saucedemo.com/"
 });
 
 test.describe('Saucedemo login screen test suites', async () => {
