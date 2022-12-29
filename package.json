@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx playwright test",
     "day1": "npx playwright test tests/Day1",
-    "day2": "npx playwright test tests/Day2"
+    "day2": "npx playwright test tests/Day2",
+    "day3": "npx playwright test tests/Day3"
   },
   "repository": {
     "type": "git",
