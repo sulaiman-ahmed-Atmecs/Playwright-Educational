@@ -7,7 +7,9 @@
     "test": "npx playwright test",
     "day1": "npx playwright test tests/Day1",
     "day2": "npx playwright test tests/Day2",
-    "day3": "npx playwright test tests/Day3"
+    "day3": "npx playwright test tests/Day3",
+    "day4": "npx playwright test tests/Day4",
+    "day5": "npx playwright test tests/Day5"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/sulaiman-ahmed-Atmecs/Playwright-Educational#readme",
   "devDependencies": {
-    "@playwright/test": "^1.29.1"
+    "@playwright/test": "^1.29.1",
+    "moment": "^2.29.4"
   }
 }
