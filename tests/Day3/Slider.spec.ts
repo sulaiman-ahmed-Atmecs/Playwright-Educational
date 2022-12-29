@@ -2,8 +2,7 @@ import { expect, test } from "@playwright/test";
 import SandBoxSliderService from "../PageObjectModel-POM/SandBoxSliderService.Input";
 
 test.use({
-    baseURL: 'https://automatenow.io/sandbox-automation-testing-practice-website/',
-    headless: false,
+    baseURL: 'https://automatenow.io/sandbox-automation-testing-practice-website/'
 });
 test.describe('Handle sliders', async () => {
     let sandBoxSliderService: SandBoxSliderService | null | undefined;

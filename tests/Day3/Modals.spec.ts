@@ -4,7 +4,6 @@ import ModalsService from "../PageObjectModel-POM/ModalsService";
 
 test.use({
     baseURL: 'https://automatenow.io/sandbox-automation-testing-practice-website/',
-    headless: false,
 });
 
 test.describe('Handle Modals', async () => {
