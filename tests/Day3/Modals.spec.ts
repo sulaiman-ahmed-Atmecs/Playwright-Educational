@@ -39,7 +39,7 @@ test.describe('Handle Modals', async () => {
         await nameField?.fill('playwright');
 
         await modalsService?.clickOnFormModal_SubmitField();
-        await page.waitForTimeout(2000);
+        await page.waitForTimeout(5000);
         expect(await formModal?.isVisible()).toBe(false);
 
     });
